@@ -24,7 +24,7 @@ async function fetchAIAnswer(question) {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer YOUR_OPENAI_API_KEY" // replace with your key
+                "Authorization": "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" // replace with your key
             },
             body: JSON.stringify({
                 model: "gpt-4",
